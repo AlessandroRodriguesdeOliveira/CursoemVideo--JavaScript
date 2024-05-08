@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(102, 255, 247);
+    text-align: center;
+    font: normal 15pt Arial;
+   
+    
+}
+
+header{
+    padding: 10px; 
+    font-weight: bold;
+    color: white;
+    font-size: 30pt;
+}
+
+section{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+footer{
+    font-style: italic;
+    color: white;
+}
+
+div{
+    padding: 10px;
+}
+
+#p{
+    text-align: center;
+
+}
+
+#seleção{
+    text-align: right;
+}
+
+select{
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}

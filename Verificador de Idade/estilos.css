@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(119, 119, 231);
+    font: normal 15pt Arial;
+    
+}
+
+header{
+    text-align: center;
+    color: white;
+    
+   
+}
+
+#nascimento{
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+
+
+   
+}
+
+#verificador{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+}
+
+section{
+    margin: auto;
+    background-color: white;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(76, 76, 87);
+    padding: 10px;
+    
+}
+
+#imagem{
+    text-align: center;
+    padding: 10px;
+}
+
+#p{
+    text-align: center;
+    padding: 10px;
+    font-size: 90%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}

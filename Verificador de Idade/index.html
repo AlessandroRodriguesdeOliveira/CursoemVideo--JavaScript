@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <title>Verificador de Idade</title>
+   
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section>
+            <p>
+                <label for="nascimento">Ano de Nascimento: </label>
+                <input type="number" name="nascimento" id="nascimento">
+               
+            </p>
+            <p>
+                Sexo:   <input type="radio" name="sexo" id="gmasculino" class="sexo">
+                <label for="gmasculino">Masculino </label>
+                <input type="radio" name="sexo" id="gfeminino" class="sexo">
+                <label for="gfeminino">Feminino</label>
+            </p>
+            <p>
+                <input type="button" id="verificador" value="Verificar" onclick="verificar()">
+            </p>
+            <div id="p">Preencha os dados acima para ver o resultado!</div>
+            <div id="imagem"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+    <script src="manipulações.js"></script>
+</body>
+
+</html>

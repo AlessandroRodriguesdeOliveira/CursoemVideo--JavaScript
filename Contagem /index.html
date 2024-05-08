@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contagem Regressiva</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+       <section>
+        <div id="divsec">
+            <p>
+                <label for="inicio">Início: </label>
+                <input type="number" name="inicio" id="inicio">
+            </p>
+            <p>
+                <label for="fim">Fim: </label>
+                <input type="number" name="fim" id="fim">
+
+            </p>
+            <p>
+                <label for="passo">Passo: </label>
+                <input type="number" name="passo" id="passo">
+            </p>
+            <div>
+                <input type="button" value="Contar" onclick="Contar()"></div>
+            </div>
+            <div id="div.display">
+                <p id="display">Preparando a contagem... <br></contagem></p>
+            </div>
+       </section>
+
+    </main>
+    <footer>
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+
+    <script src="manipulações.js"></script>
+</body>
+</html>
